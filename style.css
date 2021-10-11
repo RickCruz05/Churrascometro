@@ -1,0 +1,95 @@
+@font-face {
+    font-family: homestead;
+    src: url(/Fonts/Homestead-Regular.ttf);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    font-family: homestead;
+}
+
+body {
+    background-image:url(./Images/freshly-cut-meat.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;  
+    min-width: 300px;
+    width: 36vw;
+    background-color: rgba(73, 5, 6, 0.486);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 4vw;
+    
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+h1{
+    font-size: 3.6vw;
+    color: #FBFCFF;
+
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+input, button {
+    font-size: 1.8rem;
+    height: 4.8rem;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+button {
+    width: 100%; 
+    margin-bottom: 15px;   
+}
+
+#resultado {
+background-color: #FBFCFF;
+font-size: 1.8rem;
+border-radius: 10px;
+padding: 5px;
+}
+
+@media screen and (max-width:1400px) {
+    .container{
+        width: 42vw;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .container{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 2.8rem;
+    }    
+}
