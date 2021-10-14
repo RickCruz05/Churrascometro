@@ -21,7 +21,6 @@ function calcular() {
     resultado.innerHTML = `<p>${totalCarne / 1000}Kg de carne</p>`
     resultado.innerHTML += `<p>${totalCerveja / 1000}L de Cerveja</p>`
     resultado.innerHTML += `<p>${totalBebida / 1000}L de Bebidas</p>`
-
 }
 
 function carnePP (duracao) {
