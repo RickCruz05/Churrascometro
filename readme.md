@@ -12,7 +12,7 @@ Projeto desenvolvido no curso do ProgramadorBR
 
 Site que calcula a quantidade de carne e bebida necessárias para um churrasco.
 <br>
-O calculo é realizado com base nos seguintes dados:
+O cálculo é realizado com base nos seguintes dados:
 
 - Carne: 400g por pessoa | 650g caso dure mais de 6 horas | Metade para as crianças .
 - Cerveja: 1200ml por adulto que bebe cerveja | 2000ml caso dure mais de 6 horas.
