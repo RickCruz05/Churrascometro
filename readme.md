@@ -1,6 +1,6 @@
 # Churrascômetro
 
-<p align="center">Projeto desenvolvido no curso do ProgramadorBR</p>
+Projeto desenvolvido no curso do ProgramadorBR
 
 <br>
 
