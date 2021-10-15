@@ -7,7 +7,7 @@ Projeto desenvolvido no curso do ProgramadorBR
 ## Sobre o Projeto
 
 <h1 align = "center">
-    <img alt = "Readme" src = "Images/Churrascometro.gif" />
+    <a href = "https://churrascometro05.netlify.app/"><img alt = "Link para site" src = "Images/Churrascometro.gif" /> Clique aqui para acessar o site!! </a>
 </h1>
 
 Site que calcula a quantidade de carne e bebida necessárias para um churrasco.
